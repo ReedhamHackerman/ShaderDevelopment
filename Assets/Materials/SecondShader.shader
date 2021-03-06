@@ -28,6 +28,7 @@
         struct Input
         {
             float2 uv_MainTex;
+			float3 worldRefl;
         };
 
         half _Glossiness;
@@ -52,6 +53,7 @@
             // Metallic and smoothness come from slider variables
             o.Metallic = _Metallic;
             o.Smoothness = _Glossiness;
+			o.Emission = texCUBE(_MyCube, IN.worldRefl).rgb;
             o.Alpha = c.a;
         }
         ENDCG
