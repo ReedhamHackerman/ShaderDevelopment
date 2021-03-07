@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: OutlineShader
-  m_Shader: {fileID: 4800000, guid: dcb7db13e328ad747943ebd0951a6924, type: 3}
+  m_Name: RimMaterial
+  m_Shader: {fileID: 4800000, guid: 0951e7c38fec3e1478eab6762d77ae2e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,18 +61,19 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0.882
     - _GlossyReflections: 1
-    - _Metallic: 0.064
+    - _Metallic: 0.623
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RimIntensity: 2.42
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.427451, g: 0.47450984, b: 0.4156863, a: 1}
+    - _Color: {r: 0.27429485, g: 0, b: 0.76862746, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
