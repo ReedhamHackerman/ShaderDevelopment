@@ -69,9 +69,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.903
+    - _Glossiness: 0.991
     - _GlossyReflections: 1
-    - _Metallic: 1
+    - _Metallic: 0.731
     - _Mode: 0
     - _MyRange: 1
     - _MySliderValue: 10
